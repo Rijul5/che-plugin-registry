@@ -14,7 +14,6 @@ spec:
   containers:
     - image: "rijulsaini/xvfb_linux:next"
       name: xvfb
-      memoryLimit: '2Gi'
       command: ['/remote-endpoint/plugin-remote-endpoint']
   extensions:
     - https://github.com/che-incubator/vscode-teletype-guest/blob/master/vscode-teletype-0.0.1.vsix?raw=true
