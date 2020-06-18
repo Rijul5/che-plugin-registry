@@ -12,7 +12,7 @@ category: Language
 firstPublicationDate: '2019-09-19'
 spec:
   containers:
-    - image: "rijulsaini/xvfb_linux:next"
+    - image: "rijulsaini/vscode-teletype-deps:latest"
       name: xvfb
       memoryLimit: "512Mi"
       command: ['/remote-endpoint/plugin-remote-endpoint']
