@@ -17,4 +17,4 @@ spec:
       memoryLimit: "512Mi"
       command: ['/remote-endpoint/plugin-remote-endpoint']
   extensions:
-    - https://github.com/che-incubator/vscode-teletype-guest/blob/master/vscode-teletype-0.0.1.vsix?raw=true
+    - https://github.com/che-incubator/vscode-teletype-guest/raw/master/vscode-teletype-0.0.1.vsix
