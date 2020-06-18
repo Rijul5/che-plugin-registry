@@ -11,5 +11,9 @@ repository: https://github.com/che-incubator/vscode-teletype-guest
 category: Language
 firstPublicationDate: '2019-09-19'
 spec:
+  containers:
+    - image: "quay.io/gattytto/che-sidecar-plantuml:latest"
+      name: vscode-plantuml
+      memoryLimit: '512Mi'
   extensions:
     - https://github.com/che-incubator/vscode-teletype-guest/blob/master/vscode-teletype-0.0.1.vsix?raw=true
