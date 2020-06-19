@@ -4,11 +4,11 @@ name: vscode-teletype
 version: 0.1.0
 type: VS Code extension
 displayName: vscode-teletype
-title: co-editing support
+title: Co-editing support
 description: VS Code Teletype extension for Creating CoEditing skeleton for Eclipse Che and Theia
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 repository: https://github.com/Rijul5/vscode-teletype-guest
-category: Language
+category: Other
 firstPublicationDate: '2019-09-19'
 spec:
   containers:
