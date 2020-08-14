@@ -11,11 +11,6 @@ repository: https://github.com/Rijul5/vscode-teletype-guest
 category: Other
 firstPublicationDate: '2019-09-19'
 spec:
-  containers:
-    - image: "rijulsaini/vscode-teletype-deps:latest"
-      name: xvfb
-      memoryLimit: "2Gi"
-      command: ['/remote-endpoint/plugin-remote-endpoint']
   extensions:
-    - https://github.com/Rijul5/vscode-teletype-guest/raw/master/vscode-teletype-0.0.1.vsix
+    - https://github.com/Rijul5/vscode-teletype-guest/raw/dev/vscode-teletype-0.0.1.vsix
     
